@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html class="fsvs" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>НАША СВІТЛИЦЯ</title>
+
+    <!-- BOOTSTRAP -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <!-- MY STYLE -->
+    <link rel="stylesheet" href="/css/myStyle.css" />
+    <link rel="stylesheet" href="/css/nav.css" />
+    <link rel="stylesheet" href="/css/firstBanner.css" />
+    <link rel="stylesheet" href="/css/goods.css" />
+    <link rel="stylesheet" href="/css/instagram.css" />
+
+    <!-- OWL CAROUSEL CSS -->
+    <link
+      rel="stylesheet"
+      href="/plugins/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/plugins/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css"
+    />
+    <link rel="stylesheet" href="/css/tapeCarousel.css" />
+    <link rel="stylesheet" href="/css/master-class.css" />
+    <link rel="stylesheet" href="/css/footter.css" />
+
+    <!-- MY JS -->
+    <script src="/js/navHover.js"></script>
+    <script src="/js/navDisapear.js"></script>
+    <script src="/js/navItemChange.js"></script>
+    <script src="/js/navHamburger.js"></script>
+    <script src="/js/navSubMenuChangeBG.js"></script>
+
+    <script src="/js/goods.js"></script>
+    <script src="/js/instagram.js"></script>
+    <script src="/js/underlineNav.js"></script>
+
+    <!-- OWL CAROUSEL JS -->
+    <script src="/js/tapeCarousel.js"></script>
+  </head>
+
+  <body class="disable-scrollbars">
+    <!-- HIDDEN HEAD MENU -->
+    <div class="container-fluid">
+      <div class="nav-item nav-icon-wrapper" id="navHamburger">
+        <div class="nav-icon" id="navHamburgerIcon"></div>
+      </div>
+      <div class="row" id="navHeadSubMenu">
+        <div class="col-md-4 d-none d-md-block" id="navHeadMenu-div-img">
+          <div id="fakeImg"></div>
+        </div>
+        <div class="col-12 col-md-8 navbar-light" id="navHeadMenu-div-menu">
+          <ul
+            class="navbar-nav navHeadMenu-div-menu"
+            id="navHeadMenu-div-menu-main"
+          >
+            <li class="nav-item">
+              <a class="nav-link nav-LActive" href="/" data-img-num="1"
+                >Головна</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/mc" data-img-num="2"
+                >Майстер&nbsp;-&nbsp;класи</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/goods" data-img-num="3">Товари</a>
+            </li>
+            <li>
+              <a class="nav-link" href="/about" data-img-num="4"
+                >Про&nbsp;нас</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contacts" data-img-num="5">Контакти</a>
+            </li>
+          </ul>
+          <div class="navUnderlineEffects social">
+            <ul class="navbar-nav">
+              <span>Соцмедіа</span>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://www.instagram.com/nashasvitlucia/"
+                  >Instagram</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.facebook.com/iruna.mudrik"
+                  >Facebook</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="scroller" class="scroller">
+      <!-- HEADER -->
+      <div class="container" id="navHead">
+        <nav class="navbar navbar-expand-md navbar-light col-12">
+          <a
+            class="navbar-brand justify-content-left col-8 col-md-3 col-lg-5 align-items-center"
+            id="navLogo"
+            href="/"
+            ><img src="/image/logo_NS_Text.png"
+          /></a>
+          <!-- Н А Ш А &#10046; С В І Т Л И Ц Я -->
+          <div
+            class="collapse navbar-collapse navUnderlineEffects justify-content-right col-md-8 col-lg-6"
+            id="navbarSupportedMenu"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="/">Головна</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="/mc">Майстер&nbsp;-&nbsp;класи</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="/goods">Товари</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="/about">Про&nbsp;нас</a>
+              </li>
+              <li class="nav-item ml-2">
+                <a class="nav-link" href="/contacts">Контакти</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <!-- FIRST BANNER -->
+      <div class="container" id="FirstBanner">
+        <div class="row">
+          <div class="col-12 banner-img text-center">
+            <img src="/image/logo_Pel.png" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center banner-text">
+            Етно&nbsp;Одяг <span>та</span><br />
+            Майстер-класи
+          </div>
+        </div>
+      </div>
+
+      <!-- TAPE -->
+      <div class="container-fluid" id="Tape">
+        <div class="owl-carousel owl-theme">
+          <div class="item"><img src="/image/tape/01.jpg" /></div>
+          <div class="item"><img src="/image/tape/02.jpg" /></div>
+          <div class="item"><img src="/image/tape/03.jpg" /></div>
+          <div class="item"><img src="/image/tape/04.jpg" /></div>
+          <div class="item"><img src="/image/tape/05.jpg" /></div>
+          <div class="item"><img src="/image/tape/06.jpg" /></div>
+          <div class="item"><img src="/image/tape/07.jpg" /></div>
+          <div class="item"><img src="/image/tape/08.jpg" /></div>
+        </div>
+      </div>
+
+      <!-- MASTER-CLASSES -->
+      <div id="master-class">
+        <div class="container">
+          <div class="row">
+            <div class="card col-12 col-md-5">
+              <div class="card-body">
+                <h6 class="card-subtitle">НАВЧАННЯ&nbsp;ПРОФЕСIОНАЛIВ</h6>
+                <h4 class="card-title">Майстер-класи</h4>
+                <p class="card-text">
+                  Проведення профісійних майстер-класів, де навчаємо робити речі
+                  власними руками.
+                </p>
+                <a href="/mc" class="btn btn-primary"
+                  ><span class="btn-txt-wraper"
+                    >МАЙСТЕР&nbsp;-&nbsp;КЛАСИ</span
+                  ></a
+                >
+              </div>
+            </div>
+
+            <div class="col-12 col-md-7 mc-img">
+              <img src="/image/master/imgMaster.JPG" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- GOODS -->
+      <div class="container goods" id="Goods">
+        <div class="row">
+          <div class="col-md-4 d-none d-md-block goods__blockForImg">
+            <img class="goods__img L1" src="/image/goods/shirtWoo/01.jpg" />
+            <img class="goods__img L2" src="/image/goods/shirtWoo/02.jpg" />
+          </div>
+          <div class="col-md-4 card goods__nav">
+            <div class="card-body">
+              <h6 class="card-subtitle text-center">
+                ПЕРЕГЛЯНУТИ&nbsp;КОЛЕКЦIЮ
+              </h6>
+            </div>
+            <div class="col-12 navbar-light goods__nav_main">
+              <ul class="navbar-nav navHeadMenu-div-menu text-center">
+                <li class="nav-item">
+                  <a class="nav-link" data-folder="dress" href="/goods"
+                    >Плаття</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-folder="shirtWoo" href="/goods"
+                    >Сорочки&nbsp;жiночi</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-folder="shirtMan" href="/goods"
+                    >Сорочки&nbsp;чоловiчi</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-folder="busi" href="/goods">Буси</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-folder="dols" href="/goods"
+                    >Ляльки</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-folder="candles" href="/goods"
+                    >Свiчки</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="card-body">
+              <a href="#" class="btn btn-primary"
+                ><span class="btn-txt-wraper">ПЕРЕГЛЯНУТИ&nbsp;ВСЕ</span></a
+              >
+            </div>
+          </div>
+          <div class="col-md-4 d-none d-md-block goods__blockForImg">
+            <img class="goods__img R1" src="/image/goods/shirtWoo/03.jpg" />
+            <img class="goods__img R2" src="/image/goods/shirtWoo/04.jpg" />
+          </div>
+        </div>
+      </div>
+
+      <!-- INSTAGRAM -->
+      <div class="instagram">
+        <div class="instagram-grid">
+          <div class="instagram-layer insta-slow">
+            <div class="instagram-block"></div>
+          </div>
+          <div class="instagram-layer insta-normal">
+            <div class="instagram-block"></div>
+          </div>
+          <div class="instagram-layer insta-normal">
+            <div class="instagram-block"></div>
+          </div>
+          <div class="instagram-layer insta-normal">
+            <div class="instagram-block instaMain"></div>
+          </div>
+          <div class="instagram-layer insta-normal">
+            <div class="instagram-block align-items-center">
+              <a href="#"><img src="/image/instagram/Instagram.png" /></a>
+            </div>
+          </div>
+          <div class="instagram-layer insta-slow">
+            <div class="instagram-block"></div>
+          </div>
+          <div class="instagram-layer insta-slow">
+            <div class="instagram-block"></div>
+          </div>
+          <div class="instagram-layer insta-slow">
+            <div class="instagram-block"></div>
+          </div>
+          <div class="instagram-layer insta-normal">
+            <div class="instagram-block"></div>
+          </div>
+        </div>
+      </div>
+
+      <div id="Footter" class="footter">
+        <div class="container">
+          <div class="col-12 text-center footter-logo">
+            <img src="/image/logo_NS_Text_White.png" />
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-2 footter-nav">
+              <ul class="underlineNav">
+                <span>Навігація</span>
+                <li>
+                  <a href="/" class="ULActive">Головна</a>
+                </li>
+                <li>
+                  <a href="/mc">Майстер-класи</a>
+                </li>
+                <li>
+                  <a href="/goods">Товари</a>
+                </li>
+                <li>
+                  <a href="/about">Про нас</a>
+                </li>
+                <li>
+                  <a href="/contacts">Контакти</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-2 footter-nav">
+              <ul class="underlineNav">
+                <span>Соцмедіа</span>
+                <li>
+                  <a href="https://www.instagram.com/nashasvitlucia/"
+                    >Instagram</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/iruna.mudrik">Facebook</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-4"></div>
+            <div class="col-4 footter-circle footter-img">
+              <div class="footter-imgWrap">
+                <img src="/image/logo_Pel_Foot.png" />
+              </div>
+              <div class="footter-imgWrap">
+                <img src="/image/footterTxtCircle2.svg" class="circleMove" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 footter-nav">
+              <span class="FSmall"
+                >All rights reserved — 2020 © Nasha Svitlucia</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script
+        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"
+      ></script>
+
+      <!-- Owl Carousel -->
+      <script src="/plugins/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js"></script>
+      <script src="/plugins/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+
+      <!-- Mousewheel -->
+      <script src="/plugins/jquery-mousewheel-master/jquery.mousewheel.min.js"></script>
+
+      <!-- Smooth Scrollbar -->
+      <script src="/plugins/smooth-scrollbar/dist/smooth-scrollbar.js"></script>
+
+      <!-- GSAP -->
+
+      <script src="/plugins/gsap-public/gsap-public/minified/gsap.min.js"></script>
+      <script src="/plugins/gsap-public/gsap-public/minified/ScrollTrigger.min.js"></script>
+      <script src="/plugins/gsap-public/gsap-public/minified/EasePack.min.js"></script>
+
+      <script src="/js/scrolling.js"></script>
+      <script src="/js/paralaxFootter.js"></script>
+    </div>
+  </body>
+</html>
