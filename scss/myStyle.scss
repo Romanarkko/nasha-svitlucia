@@ -1,0 +1,87 @@
+
+
+*{
+	box-sizing: border-box;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #f6f4f2;
+	
+}
+
+a:active, a:hover, a {
+    text-decoration: none;
+    outline:none;
+}
+ul, li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+// SCROLLING 
+.disable-scrollbars::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* Chrome/Safari/Webkit */
+}
+
+.disable-scrollbars {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE 10+ */
+}
+
+#scroller {
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+.scrollbar-track-y {
+	width: 0 !important;
+}
+
+
+// ABOUT 
+#About {
+	margin: 0 0 10% 0;
+}
+.banner-text-about {
+	font-family: Colus;
+	font-weight: 100;
+	font-size: 3em;
+	span {
+		font-size: 0.7em;
+		font-style: italic;
+	}
+}
+
+// MASTER CLASS
+#MC {
+	margin: 0 0 10% 0;
+}
+.card-subtitle-mc {
+	color: #ae97a2;
+	font-size: 8em;
+	font-family: Serifiqo;
+	padding: 7% 15%;
+}
+
+
+@font-face{
+	font-family: Colus;
+	src: url(../fonts/Colus/Colus-Regular.ttf);
+}
+@font-face{
+	font-family: Serifiqo;
+	src: url(../fonts/Serifiqo/Serifiqo4FFreeCapitals.otf);
+}
+@font-face{
+	font-family: Mono;
+	src: url(../fonts/19279.ttf);
+}
+

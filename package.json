@@ -1,0 +1,25 @@
+{
+  "name": "nasha-svitlucia",
+  "version": "1.0.0",
+  "description": "web site for etnical cloth",
+  "main": "index.html",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "smooth-scrollbar": "^8.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Romanarkko/nashasvitlucia.github.io.git"
+  },
+  "author": "Roman Ko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Romanarkko/nashasvitlucia.github.io/issues"
+  },
+  "homepage": "https://github.com/Romanarkko/nashasvitlucia.github.io#readme"
+}
