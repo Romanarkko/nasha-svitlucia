@@ -1,0 +1,10 @@
+#Tape{
+	margin: 5% 0;
+}
+.owl-stage {
+	display: flex;
+    align-items: center;
+}
+.owl-carousel .owl-item {
+	vertical-align: middle;
+}

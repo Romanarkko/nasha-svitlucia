@@ -1,0 +1,114 @@
+.instagram {
+  position: relative;
+  width: 100vw;
+  height: 120vw;
+  overflow: hidden;
+  perspective: 100vw;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6f4f2;
+}
+
+.instagram-grid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70vw;
+  height: 80vw;
+  margin: 15vw;
+  overflow: hidden;
+  transition: all 0.5s;
+  perspective: 100vw;
+}
+
+.instagram-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-origin: 50% 50%;
+}
+.instagram-layer .instagram-block {
+  background-color: yellow;
+}
+.instagram-layer:nth-child(1) .instagram-block {
+  top: -5vw;
+  left: 20vw;
+  width: 10vw;
+  height: 10vw;
+  background-image: url(../image/instagram/1min.jpg);
+}
+.instagram-layer:nth-child(2) .instagram-block {
+  top: 0;
+  left: 32.5vw;
+  width: 15vw;
+  height: 15vw;
+  background-image: url(../image/instagram/2min.jpg);
+}
+.instagram-layer:nth-child(3) .instagram-block {
+  left: 0;
+  top: 25vw;
+  width: 15vw;
+  height: 15vw;
+  background-image: url(../image/instagram/3min.jpg);
+}
+.instagram-layer:nth-child(4) .instagram-block {
+  top: 17.5vw;
+  left: 17.5vw;
+  width: 30vw;
+  height: 30vw;
+  background-image: url(../image/instagram/4min.jpg);
+}
+.instagram-layer:nth-child(5) .instagram-block {
+  top: 25vw;
+  left: 50vw;
+  width: 5vw;
+  height: 5vw;
+  background-color: #cb9274;
+  transition: background-color 0.4s ease-out;
+}
+.instagram-layer:nth-child(5) .instagram-block a {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.instagram-layer:nth-child(6) .instagram-block {
+  left: 57vw;
+  top: 26vw;
+  width: 20vw;
+  height: 20vw;
+  background-image: url(../image/instagram/6min.jpg);
+}
+.instagram-layer:nth-child(7) .instagram-block {
+  left: 0.5vw;
+  top: 42.5vw;
+  width: 5vw;
+  height: 5vw;
+  background-image: url(../image/instagram/7min.jpg);
+}
+.instagram-layer:nth-child(8) .instagram-block {
+  top: 53vw;
+  left: 32vw;
+  width: 5vw;
+  height: 5vw;
+  background-image: url(../image/instagram/8min.jpg);
+}
+.instagram-layer:nth-child(9) .instagram-block {
+  top: 48.5vw;
+  left: 37.5vw;
+  width: 10vw;
+  height: 10vw;
+  background-image: url(../image/instagram/9min.jpg);
+}
+
+.instagram-block {
+  position: absolute;
+  display: block;
+  background-size: cover;
+}
+.instagram-block img {
+  width: 50%;
+  height: 50%;
+}
